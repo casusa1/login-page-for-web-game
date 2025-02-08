@@ -150,3 +150,49 @@ a:first-of-type{
 a + a {
     margin-top: 1.125rem;
 }
+
+/* Tablet styles */
+@media (min-width: 601px) and (max-width: 1024px) {
+    body {
+        font-size: 16px;
+    }
+
+    form {
+        width: 80%;
+        padding: 20px;
+    }
+
+    input[type="email"],
+    input[type="password"],
+    button {
+        width: 80%;
+        margin-bottom: 15px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+}
+
+/* Desktop styles */
+@media (min-width: 1025px) {
+    body {
+        font-size: 18px;
+    }
+
+    form {
+        width: 100%;
+        padding: 30px;
+    }
+
+    input[type="email"],
+    input[type="password"],
+    button {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+}
